@@ -1,3 +1,3 @@
 FROM amazonlinux
 
-RUN yum update && yum groupinstall 'Development Tools'
+RUN yum update -y && yum groupinstall -y 'Development Tools'
